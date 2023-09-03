@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #0074cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#current-image-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#search-history {
+    list-style: none;
+    padding: 0;
+}
+
+#search-history li {
+    cursor: pointer;
+    margin: 5px;
+    color: #0074cc;
+    text-decoration: underline;
+}
+
+#search-history li:hover {
+    font-weight: bold;
+}
